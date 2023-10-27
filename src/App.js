@@ -9,6 +9,7 @@ import About from "./components/pages/about";
 import Home from "./components/pages/home";
 import Inventory from "./components/pages/inventory";
 import Admin from "./components/pages/admin";
+import Cart from "./components/pages/cart"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
@@ -27,6 +28,7 @@ function App(){
   <Route path="/home" element={<Home/>}></Route>
   <Route path="/inventory" element={<Inventory/>}></Route>
   <Route path="/admin" element={<Admin/>}></Route>
+  <Route path="/cart"  element={<Cart/>}></Route>
 </Routes>
        
 

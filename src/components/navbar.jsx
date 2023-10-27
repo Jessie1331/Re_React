@@ -12,16 +12,22 @@ function Navbar(){
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/home.jsx">Home</a>
+                <a className="nav-link active" aria-current="page" href="/home">Home</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about.jsx">About</a>
+                <a className="nav-link" href="/about">About</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/inventory.jsx">Inventory</a>
+                <a className="nav-link" href="/inventory">Inventory</a>
               </li>
               <li classNmae="nav-item">
-                <a className="nav-link disabled" href="/src/App.js">Top-Pic's</a>
+                <a className="nav-link disabled" href="/catalog">Catalog</a>
+              </li>
+               <li className="nav-item">
+                <a className="nav-link" href="/cart">Cart</a>
+              </li>
+              <li classNmae="nav-item">
+                <a className="nav-link " href="/admin">Admin</a>
               </li>
             </ul>
           </div>

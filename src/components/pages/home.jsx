@@ -17,7 +17,7 @@ function Home(){
             <p>lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</p>
             <div className="flexrow">
                 <div>
-                    <image src="/"
+                  
                 </div>
 
             </div>
